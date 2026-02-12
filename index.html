@@ -43,7 +43,7 @@
       <!-- Camera -->
       <a-camera>
         <!-- Uncomment the line below to place blocks on desktop or mobile -->
-         <a-cursor intersection-spawn="event: click; mixin: voxel"></a-cursor> 
+         <a-cursor  fuse="true" fuseTimeout="5000" intersection-spawn="event: fusing; mixin: voxel"></a-cursor> 
       </a-camera>
     </a-entity>
   </a-scene>
